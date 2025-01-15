@@ -9,7 +9,7 @@ What may help us get started is looking at the same task being done in different
 
 ## List of Experiments
 
-**Section1**: "Shallow" ML algorithms
+[**Section1**: "Shallow" ML algorithms](https://github.com/Roussel006/Many_MLs_for_Node_Classification/blob/main/Section_1_Shallow_MLs.ipynb)
 
 In this section, we will build eight "shallow" ML classifiers. We will learn how to implement each of them using Scikit-Learn and save the models for later comparisons with other models. The models we will develop are:
 
@@ -20,7 +20,7 @@ In this section, we will build eight "shallow" ML classifiers. We will learn how
     1e. Gradient Boosting
     1f. CatBoost
     1g. LightGBM
-    1h. Support Vector Machine (SVM) Classifiers
+    1h. Support Vector Machines (SVM)
 
 **Section 2**: Deep Learning Models 
 
