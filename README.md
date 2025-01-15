@@ -39,11 +39,45 @@ In this section, we will build several Graph-based MLs. There are several types 
     3a. A Graph Convolutional Network (GCN)
     3b. A Graph Attention Network (GAT)
 
+<!-- **Graph Representation Learning**
+Node Embeddings: Techniques like DeepWalk, node2vec, and LINE that learn low-dimensional representations of nodes.
+Graph Embeddings: Methods like GraphSAGE and Graph Convolutional Networks (GCNs) that learn representations for entire graphs.
+Edge Embeddings: Techniques that focus on learning representations for edges in a graph.
+
+**Feature Engineering**
+Manual Feature Extraction: Extracting features like node degree, clustering coefficient, and centrality measures.
+Graph Kernels: Methods like Weisfeiler-Lehman Kernel and Shortest Path Kernel that measure similarity between graphs.
+Graph Augmentation: Techniques that enhance graph data by adding or modifying nodes and edges.
+
+**Graph Neural Networks (GNNs)**
+Graph Convolutional Networks (GCNs): Neural networks that apply convolution operations on graphs.
+Graph Attention Networks (GATs): GNNs that use attention mechanisms to weigh the importance of neighboring nodes.
+Graph Recurrent Networks (GRNs): GNNs that incorporate recurrent neural network architectures for sequential data.
+Graph Autoencoders: Unsupervised learning models that encode graph data into a latent space and then decode it back.
+
+**Graph-Based Algorithms**:
+PageRank: An algorithm used to rank nodes in a graph based on their importance.
+Label Propagation: A semi-supervised learning algorithm that propagates labels through the graph.
+Community Detection: Algorithms like Louvain and Girvan-Newman that identify clusters or communities within a graph.
+
+**Graph Generative Models**
+GraphRNN: A recurrent neural network-based model for generating graphs.
+GraphVAE: A variational autoencoder for generating graphs.
+GraphGAN: A generative adversarial network for generating graphs.
+
+**Some Graph-Based Applications**
+Social Network Analysis: Analyzing social networks to understand relationships and influence.
+Recommendation Systems: Using graph-based techniques to recommend items or connections.
+Molecular Graphs: Analyzing molecular structures for drug discovery and chemistry.
+Knowledge Graphs: Representing and reasoning over knowledge in a structured form.
+
+These are just a few examples of the diverse techniques and applications in graph-based ML. One can find more details in the [Hugging Face blog](https://huggingface.co/blog/intro-graphml). -->
+
 A note on resources: 
     
-    1. A great open-source resource for ML with Graphs is the the CS224W course by Jure Lescovec at Stanford. The lecture slides, notebooks, and problem sets for several years are provided in entirety (Thanks a lot, Dr. Lescovec!), such as the Fall 2023 resource can be found here: https://snap.stanford.edu/class/cs224w-2023/. Lecture videos for particular years can be found on YouTube -- Isn't that just awesome? Here is the lecture series for 2021: https://youtu.be/JAB_plj2rbA?si=ujCiFl6HBFSqlGVf
-    2. The [Graph Neural Network Course](https://github.com/mlabonne/Graph-Neural-Network-Course) by [@maximelabonne](https://twitter.com/maximelabonne). Some of the codes here will be developed based on Chapter 2 of the course and this companion article: https://mlabonne.github.io/blog/gat/
-    3. A quick introduction: [Hugging Face blog](https://huggingface.co/blog/intro-graphml).
+1. A great open-source resource for ML with Graphs is the the CS224W course by Jure Lescovec at Stanford. The lecture slides, notebooks, and problem sets for several years are provided in entirety (Thanks a lot, Dr. Lescovec!), such as the Fall 2023 resource can be found here: https://snap.stanford.edu/class/cs224w-2023/. Lecture videos for particular years can be found on YouTube -- Isn't that just awesome? Here is the lecture series for 2021: https://youtu.be/JAB_plj2rbA?si=ujCiFl6HBFSqlGVf
+2. The [Graph Neural Network Course](https://github.com/mlabonne/Graph-Neural-Network-Course) by [@maximelabonne](https://twitter.com/maximelabonne). Some of the codes here will be developed based on Chapter 2 of the course and this companion article: https://mlabonne.github.io/blog/gat/
+3. A quick introduction: [Hugging Face blog](https://huggingface.co/blog/intro-graphml).
 
 **Section 4**: Bayesian Machine Learning
 
