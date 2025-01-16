@@ -32,7 +32,7 @@ In this section, we build five DL models, using **Tensorflow**. Later, we will s
     2d. An RNN with Gated Recurrent Unit (GRU)
     2e. A Convolutional Neural Network (CNN)
 
-**Section 3**: Machine Learning with Graphs 
+[**Section 3**: Machine Learning with Graphs](https://github.com/Roussel006/Many_MLs_for_Node_Classification/blob/main/Section_3_Machine_Learning_with_Graphs.ipynb)
 
 In this section, we will build several Graph-based MLs. The graph in the CiteSeer Dataset is an **undirected, unweighted** graph, in essence, the simplest kind. As we will see, the incorporation of the edge information after setting each document as a node, will help us exceed the accuracies we had achieved with the shallow and the deep networks.
 
