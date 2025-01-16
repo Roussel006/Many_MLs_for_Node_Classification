@@ -34,10 +34,19 @@ In this section, we build five DL models, using **Tensorflow**. Later, we will s
 
 **Section 3**: Machine Learning with Graphs 
 
-In this section, we will build several Graph-based MLs. There are several types of ML with Graphs -- Feature Engineering (for Graph Characteristics as features), Graph Representation Learning, Graph Neural Networks, and more. Here, we will implement and compare some of them.
+In this section, we will build several Graph-based MLs. The graph in the CiteSeer Dataset is an **undirected, unweighted** graph, in essence, the simplest kind. As we will see, the incorporation of the edge information after setting each document as a node, will help us exceed the accuracies we had achieved with the shallow and the deep networks.
+
+There are several types of ML with Graphs -- Feature Engineering (for Graph Characteristics as features), Graph Representation Learning, Graph Neural Networks, and more. Here, we will implement and compare some of the Graph Neural Networks (GNNs). Later, we may add some more models using Graph Representation Learning.
+
+First, we will build two GNNs following the [Graph Neural Network Course](https://github.com/mlabonne/Graph-Neural-Network-Course) by Maxime Labonne. These two GNNs use both the text and the graph data available in the CiteSeer Dataset. 
+
+Thereafter, we will build several variants of these two models, manipulating the input information to the GNNs. First, we take away the texts and only provide the information on the citations. Then, we keep only the text information and take away the graph information. This way, we will gain an understanding of the contributions of each stream of information to the accuracy of the models.
 
     3a. A Graph Convolutional Network (GCN)
     3b. A Graph Attention Network (GAT)
+
+    ... (More experiments to be added)
+
 
 <!-- **Graph Representation Learning**
 Node Embeddings: Techniques like DeepWalk, node2vec, and LINE that learn low-dimensional representations of nodes.
