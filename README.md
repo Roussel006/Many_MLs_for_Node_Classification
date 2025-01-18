@@ -7,6 +7,12 @@ What may help us get started is looking at the same task being done in different
 
 <!-- In short, the choice is not uniquand requires trial-and-error with different models to find the best one from the pool. In this work, we run a set of experiments for the same classification task -- Node classification of the CiteSeer Dataset -- and compare their performance. We also see what happens if we stack or combine different models together. -->
 
+
+## Goals:
+    1. Compare the performance of different ML models and their combinations for class prediction.
+    2. Compare different implementations (e.g., Tensorflow and PyTorch)
+
+
 ## List of Experiments
 
 [**Section1**: "Shallow" ML algorithms](https://github.com/Roussel006/Many_MLs_for_Node_Classification/blob/main/Section_1_Shallow_MLs.ipynb)
@@ -90,17 +96,28 @@ A note on resources:
 
 **Section 4**: Bayesian Machine Learning
 
-In this section, we will use **PyMC3** to build some Bayesian ML models. In this networks, we will assume some prior distributions over the model parameters and after training, we will find the posterior distributions of the parameters. We will MCMC 
+Bayesian Machine Learning models are built on the principles of Bayesian statistics. In these models, we assume prior distributions over the model parameters, which represent our initial beliefs/knowledge about the parameters before seeing any data. As we train the model and observe data, we update these priors to obtain posterior distributions according to Bayes' theorem. The posterior distributions represent our updated beliefs about the parameters after incorporating the data.
+
+A key advantage of Bayesian ML is that it provides uncertainty estimates directly. That is, for any prediction, we can quantify the confidence in that prediction by looking at the spread of the posterior distribution. In contrast, traditional Deep Learning models typically do not provide uncertainty estimates directly, rather require additional techniques such as Dropout Regularization or Ensemble methods. This advantage of Bayesian ML is particularly useful in applications where understanding the uncertainty is crucial (e.g., in medical diagnosis, financial forecasting, autonomous driving, or modeling human behavior).
+
+A big thanks for this section goes to Michael J. Schoelles for his awesome course on Cognitive Modeling at Rensselaer Polytechnic Institute. This course and a related course -- Programming for Cognitive Science and AI -- by Dr. Schoelles built the foundation of my Machine Learning knowledge and helped me immensely in developing this tutorial.
+
+<!-- A key advantage of Bayesian ML is that it provides uncertainty estimates directly. That is, for any prediction, we can quantify the confidence in that prediction by looking at the spread of the posterior distribution. This is particularly useful in applications where understanding the uncertainty is crucial, such as in medical diagnosis, financial forecasting, autonomous driving, or modeling human behavior.
+
+In contrast, traditional Deep Learning models typically do not provide uncertainty estimates directly. These models are often deterministic; meaning that for a given input, they produce a single output without any measure of uncertainty. To estimate uncertainty in Deep Learning models, additional techniques are required, such as:
+
+1. Dropout: A regularization technique where random neurons are dropped during training. At inference time, dropout can be used to create an ensemble of models, and the variance in their predictions can be used as an uncertainty estimate.
+
+2. Ensemble Methods: Training multiple models independently and combining their predictions. The variance in the predictions of the ensemble members can be used to estimate uncertainty.
+
+While these methods can provide some measure of uncertainty, they are often less straightforward and may not capture the full range of uncertainty as effectively as Bayesian methods.
+
+In summary, Bayesian Machine Learning models offer a more natural and direct way to quantify uncertainty in predictions, which can be a significant advantage over other Machine Learning and Deep Learning methods in many applications. -->
 
 **Section 5**: Ensembling or Stacking different models
 
 Here, we will try different combinations of all the models we have built, to see which ones are the best ones.
 
-
-
-## Goals:
-    1. Compare the performance of different ML models and their combinations for class prediction.
-    2. Compare different implementations (e.g., Tensorflow and PyTorch)
 
 <!-- ## More options:
 
