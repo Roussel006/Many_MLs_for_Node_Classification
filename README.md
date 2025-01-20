@@ -13,9 +13,9 @@ What may help us get started is looking at the same task being done in different
     2. Compare different implementations (e.g., Tensorflow and PyTorch)
 
 
-## List of Experiments
+## List of Sections
 
-[**Section1**: "Shallow" ML algorithms](https://github.com/Roussel006/Many_MLs_for_Node_Classification/blob/main/Section_1_Shallow_MLs.ipynb)
+[**Section 1**: "Shallow" ML algorithms](https://github.com/Roussel006/Many_MLs_for_Node_Classification/blob/main/Section_1_Shallow_MLs.ipynb)
 
 In this section, we will build eight "shallow" ML classifiers. We will learn how to implement each of them using Scikit-Learn and save the models for later comparisons with other models. The models we will develop are:
 
