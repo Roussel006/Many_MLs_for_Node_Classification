@@ -28,7 +28,7 @@ In this section, we will build eight "shallow" ML classifiers. We will learn how
     1g. LightGBM
     1h. Support Vector Machines (SVM)
 
-**Section 2**: Deep Learning Models 
+[**Section 2**: Deep Learning Models](https://github.com/Roussel006/Many_MLs_for_Node_Classification/blob/main/Section_2_Deep_Learning_Models.ipynb)
 
 In this section, we build five DL models, using **Tensorflow**. Later, we will see how to build the same models to PyTorch and learn how to translate models between Tensorflow and PyTorch.
 
@@ -94,7 +94,7 @@ A note on resources:
 2. The [Graph Neural Network Course](https://github.com/mlabonne/Graph-Neural-Network-Course) by [@maximelabonne](https://twitter.com/maximelabonne). Some of the codes here will be developed based on Chapter 2 of the course and this companion article: https://mlabonne.github.io/blog/gat/
 3. A quick introduction: [Hugging Face blog](https://huggingface.co/blog/intro-graphml).
 
-**Section 4**: Bayesian Machine Learning
+[**Section 4**: Bayesian Machine Learning](https://github.com/Roussel006/Many_MLs_for_Node_Classification/blob/main/Section_4_Bayesian_ML_for_classification.ipynb)
 
 Bayesian Machine Learning models are built on the principles of Bayesian statistics. In these models, we assume prior distributions over the model parameters, which represent our initial beliefs/knowledge about the parameters before seeing any data. As we train the model and observe data, we update these priors to obtain posterior distributions according to Bayes' theorem. The posterior distributions represent our updated beliefs about the parameters after incorporating the data.
 
