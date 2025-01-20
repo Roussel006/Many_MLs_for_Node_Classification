@@ -90,9 +90,14 @@ These are just a few examples of the diverse techniques and applications in grap
 
 A note on resources: 
     
-1. A great open-source resource for ML with Graphs is the the CS224W course by Jure Lescovec at Stanford. The lecture slides, notebooks, and problem sets for several years are provided in entirety (Thanks a lot, Dr. Lescovec!), such as the Fall 2023 resource can be found here: https://snap.stanford.edu/class/cs224w-2023/. Lecture videos for particular years can be found on YouTube -- Isn't that just awesome? Here is the lecture series for 2021: https://youtu.be/JAB_plj2rbA?si=ujCiFl6HBFSqlGVf
+1. A great open-source resource for ML with Graphs is the CS224W course by Jure Lescovec at Stanford. The lecture slides, notebooks, and problem sets for several years are provided in entirety (Thanks a lot, Dr. Lescovec!), such as the Fall 2023 resource can be found here: https://snap.stanford.edu/class/cs224w-2023/. Lecture videos for particular years can be found on YouTube -- Isn't that just awesome? Here is the lecture series for 2021: https://youtu.be/JAB_plj2rbA?si=ujCiFl6HBFSqlGVf
 2. The [Graph Neural Network Course](https://github.com/mlabonne/Graph-Neural-Network-Course) by [@maximelabonne](https://twitter.com/maximelabonne). Some of the codes here will be developed based on Chapter 2 of the course and this companion article: https://mlabonne.github.io/blog/gat/
 3. A quick introduction: [Hugging Face blog](https://huggingface.co/blog/intro-graphml).
+
+4. Some open-source resources (with overlaps) for Graph datasets:
+    * [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/)
+    * [Open Graph Benchmark](https://ogb.stanford.edu/)
+    * [3D Scene Graph Dataset](https://3dscenegraph.stanford.edu/database.html)
 
 [**Section 4**: Bayesian Machine Learning](https://github.com/Roussel006/Many_MLs_for_Node_Classification/blob/main/Section_4_Bayesian_ML_for_classification.ipynb)
 
